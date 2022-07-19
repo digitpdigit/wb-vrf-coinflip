@@ -8,7 +8,8 @@ Temporary repository for WB Coinflip contracts RND and testing
 
 ## V1
 Deployed address: 0xe17850148C38BaD450add174322BAfd3356B5adD
-This is the working version we're using currenly using for staging
+
+This is the working version we're currenly using for staging (POC)
 
 ## V2
 Deployed address: 0xFcAFEd21C25aB954224dFAE5e85259b03579AD0a
@@ -22,6 +23,7 @@ Changes:
 Deployed address: 0xEE30782897b838c187e00B5156F773c5189C02EA
 
 We've tried to move all heavy processes outside the callback function. In this version the callback function only does writing SC state 
+
 Changes
 1. We've moved all transfer processes outside the callback function. 'Claiming reward' action by user will also send corresponding amount to our treasury
 
